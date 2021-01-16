@@ -3,7 +3,7 @@
 {{#if showParticipants}}
   {{raw "list/posters-column" posters=topic.participants}}
 {{/if}}
-<td class='author' style="width: 70px;"><a href="{{topic.creator.path}}" data-user-card="{{topic.creator.username}}">{{avatar topic.creator imageSize="45"}}{{avatar-flair
+<td class='author' style="width: 70px;"><a href="{{topic.creator.primary_group_flair_url}}" data-user-card="{{topic.creator.username}}">{{avatar topic.creator imageSize="45"}}{{avatar-flair
       flairURL=topic.creator.primary_group_flair_url
       flairBgColor=topic.creator.primary_group_flair_bg_color
       flairColor=topic.creator.primary_group_flair_color
