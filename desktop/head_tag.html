@@ -95,6 +95,15 @@
  {{#user-link user=topic.creator}}
   {{avatar topic.creator imageSize="large"}}
  {{/user-link}}
+  
+  {{#if topic.creator.primary_group_name}}
+    {{avatar-flair
+      flairURL=topic.creator.primary_group_flair_url
+      flairBgColor=topic.creator.primary_group_flair_bg_color
+      flairColor=topic.creator.primary_group_flair_color
+      groupName=topic.creator.primary_group_name}}
+  {{/if}}
+  
 </div>
 <div class='main-link'>
  <div class='top-row'>
