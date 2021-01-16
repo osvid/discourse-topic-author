@@ -99,12 +99,12 @@
  {{#user-link user=topic.creator}}
   {{avatar topic.creator imageSize="large"}}
 
-  {{#if topic.creator.primary_group_name}}
+  {{#if topic.creator.primary_group.name}}
     {{avatar-flair
-      flairURL=topic.creator.primary_group_flair_url
-      flairBgColor=topic.creator.primary_group_flair_bg_color
-      flairColor=topic.creator.primary_group_flair_color
-      groupName=topic.creator.primary_group_name}}
+      flairURL=topic.creator.primary_group.flair_url
+      flairBgColor=topic.creator.primary_group.flair_bg_color
+      flairColor=topic.creator.primary_group.flair_color
+      groupName=topic.creator.primary.group_name}}
   {{/if}}
    {{/user-link}}
 </div>
