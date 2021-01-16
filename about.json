@@ -1,6 +1,6 @@
 {
-  "name": "Discourse Topic Author",
-  "about_url": "https://github.com/discourse/discourse-topic-author",
+  "name": "Discourse Topic Author - Poemame",
+  "about_url": "https://github.com/osvid/discourse-topic-author",
   "component": true,
-  "license_url": "https://github.com/discourse/discourse-topic-author/blob/master/LICENSE"
+  "license_url": "https://github.com/osvid/discourse-topic-author/blob/master/LICENSE"
 }
